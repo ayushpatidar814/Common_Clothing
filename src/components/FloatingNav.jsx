@@ -23,8 +23,8 @@ export function FloatingNav({ onCartOpen }) {
             <Menu size={16} />
           </div>
           <div>
-            <p className="font-display text-sm uppercase tracking-[0.25em] text-white">Classic Clothes</p>
-            <p className="text-xs text-white/45">@classic_clothes.bhopal</p>
+            <p className="font-display text-sm uppercase tracking-[0.25em] text-white">Your Clothing Brand</p>
+            <p className="text-xs text-white/45">@yourbrand</p>
           </div>
         </div>
 

@@ -9,7 +9,7 @@ export function BrandStorySection() {
         <SectionHeading
           eyebrow="Brand Story"
           title="A reset that sharpened the vision."
-          description="Classic Clothes Bhopal is not starting over quietly. It is returning with more confidence, a clearer identity, and a stronger luxury streetwear language."
+          description="Your Clothing Brand is presented with confidence, a clear identity, and a polished fashion language designed to adapt across clothing categories."
         />
 
         <div className="relative space-y-8 pl-6 before:absolute before:left-0 before:top-0 before:h-full before:w-px before:bg-gradient-to-b before:from-cyan-200/70 before:to-transparent">

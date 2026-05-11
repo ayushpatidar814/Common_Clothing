@@ -101,7 +101,7 @@ export default function App() {
             <Footer />
 
             <div className="pb-8 text-center text-xs uppercase tracking-[0.35em] text-white/30">
-              {year} Classic Clothes Bhopal
+              {year} Your Clothing Brand
             </div>
           </motion.main>
         ) : null}

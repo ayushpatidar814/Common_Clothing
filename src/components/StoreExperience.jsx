@@ -10,7 +10,7 @@ export function StoreExperience() {
       <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.88fr_1.12fr]">
         <SectionHeading
           eyebrow="Store Experience"
-          title="A Bhopal showroom with campaign-level atmosphere."
+          title="A showroom with campaign-level atmosphere."
           description="The physical experience mirrors the digital one: focused lighting, premium curation, and a sense of discovery from the moment you walk in."
         />
 
@@ -39,7 +39,7 @@ export function StoreExperience() {
                   transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2.2 }}
                 />
                 <div className="absolute bottom-6 left-6 rounded-full border border-white/10 bg-black/35 px-4 py-2 text-xs uppercase tracking-[0.3em] text-white/70 backdrop-blur-xl">
-                  Bhopal, India
+                  Your City, Your Country
                 </div>
               </div>
             </div>
@@ -47,9 +47,9 @@ export function StoreExperience() {
             <div className="space-y-4">
               <div className="rounded-[1.5rem] border border-white/10 bg-black/25 p-5">
                 <MapPin className="text-cyan-200" size={20} />
-                <p className="mt-4 font-display text-2xl uppercase text-white">Classic Clothes Bhopal</p>
+                <p className="mt-4 font-display text-2xl uppercase text-white">Your Clothing Brand</p>
                 <p className="mt-2 text-sm leading-7 text-white/60">
-                  A premium streetwear destination crafted for modern fashion buyers in Bhopal.
+                  A premium fashion destination crafted for modern shoppers, adaptable to your brand voice and local market.
                 </p>
                 <div className="mt-4 overflow-hidden rounded-[1rem] border border-white/10">
                   <ProductImage

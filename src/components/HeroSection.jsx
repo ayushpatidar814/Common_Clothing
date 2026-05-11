@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const SceneHero = lazy(() => import("./SceneHero").then((module) => ({ default: module.SceneHero })));
 
-const tagline = "Redefining Street Fashion in Bhopal";
+const tagline = "Redefining Modern Fashion Identity";
 
 export function HeroSection({ onSoundToggle, soundOn }) {
   return (
@@ -57,7 +57,7 @@ export function HeroSection({ onSoundToggle, soundOn }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.65, duration: 0.85 }}
           >
-            A cinematic fashion destination for Gen-Z buyers chasing luxury silhouettes, premium edge, and unmistakable city energy.
+            A cinematic fashion destination for modern shoppers chasing premium silhouettes, elevated styling, and unmistakable brand energy.
           </motion.p>
 
           <motion.div
@@ -87,8 +87,8 @@ export function HeroSection({ onSoundToggle, soundOn }) {
           >
             {[
               ["Luxury layers", "Editorial-grade silhouettes"],
-              ["11 AM - 11 PM", "Open daily in Bhopal"],
-              ["Rebuilt stronger", "After a 16k chapter reset"],
+              ["Store Hours", "Set your own daily opening times"],
+              ["Brand Ready", "Easy to adapt for any clothing label"],
             ].map(([title, text]) => (
               <div key={title} className="rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur-xl">
                 <p className="font-display text-sm uppercase tracking-[0.22em] text-white">{title}</p>

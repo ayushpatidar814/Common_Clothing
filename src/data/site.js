@@ -73,7 +73,7 @@ export const products = [
 
 export const testimonials = [
   {
-    name: "Aarav Khan",
+    name: "Aarav Sharma",
     role: "Fashion Creator",
     quote: "The store feels like a campaign set. Every piece has attitude without losing polish.",
   },
@@ -93,17 +93,17 @@ export const storySteps = [
   {
     year: "Phase 01",
     title: "Built a loyal fashion community",
-    text: "Classic Clothes Bhopal carved out a clear identity among Bhopal's next-generation streetwear buyers.",
+    text: "Your Clothing Brand builds a clear identity through memorable styling, strong presentation, and a focused customer experience.",
   },
   {
     year: "Phase 02",
-    title: "Old account paused at 16k followers",
-    text: "The previous Instagram journey was interrupted, but the community memory and brand energy stayed alive.",
+    title: "Social presence ready to grow",
+    text: "The template supports ongoing content, product drops, and a consistent visual identity across social platforms.",
   },
   {
     year: "Phase 03",
-    title: "Rebuilding stronger with sharper intent",
-    text: "Now the brand returns with a more elevated visual language, stronger curation, and a luxury-first fashion point of view.",
+    title: "Built to scale with sharper intent",
+    text: "The brand can evolve with elevated visuals, stronger curation, and a polished fashion-first point of view.",
   },
 ];
 
@@ -148,7 +148,7 @@ export const instagramTiles = [
 
 export const storeExperience = {
   showroomImage: "/store/showroom.avif",
-  showroomImageAlt: "Classic Clothes Bhopal showroom interior",
+  showroomImageAlt: "Clothing brand showroom interior",
   mapImage: "/store/map-preview.avif",
-  mapImageAlt: "Map preview for Classic Clothes Bhopal",
+  mapImageAlt: "Map preview for clothing brand showroom",
 };

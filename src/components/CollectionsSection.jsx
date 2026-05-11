@@ -33,9 +33,7 @@ export function CollectionsSection() {
                   <h3 className="mt-5 font-display text-3xl uppercase text-white">{item.title}</h3>
                 </div>
                 <div className="space-y-5">
-                  <div className="h-px w-full bg-gradient-to-r from-white/40 to-transparent" />
-                  <p className="max-w-[15rem] text-sm leading-7 text-white/60">{item.accent}</p>
-                  <div className="h-24 overflow-hidden rounded-[1.5rem] border border-white/10">
+                  <div className="h-48 overflow-hidden rounded-[1.5rem] border border-white/10">
                     <ProductImage
                       src={item.image}
                       alt={item.imageAlt}
@@ -43,6 +41,8 @@ export function CollectionsSection() {
                       fallbackHint="Place the file in public/collections/ using the configured name."
                     />
                   </div>
+                  <div className="h-px w-full bg-gradient-to-r from-white/40 to-transparent" />
+                  <p className="max-w-[15rem] text-sm leading-7 text-white/60">{item.accent}</p>
                 </div>
               </div>
             </motion.article>
